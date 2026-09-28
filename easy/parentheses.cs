@@ -1,10 +1,28 @@
 using System;
 using System.Collections.Generic;
 
+
+/*
+PLANNING
+
+how dis gna go
+
+we receive string
+
+string has diff parentheses 
+
+string only consisnts of parentheses
+
+
+*/
 public class Solution
 {
-    public void valid_parantheses(string s)
+    public void IsValid(string s)
     {
+        if ((s.IndexOf(")") - s.IndexOf("(")) % 3 != 0)
+        {
+            Console.WriteLine("invalid");
+        }
 
     }
 }
