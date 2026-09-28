@@ -17,13 +17,24 @@ string only consisnts of parentheses
 */
 public class Solution
 {
-    public void IsValid(string s)
+    public bool IsValid(string s)
     {
         if ((s.IndexOf(")") - s.IndexOf("(")) % 3 != 0)
         {
-            Console.WriteLine("invalid");
+            return false;
         }
 
+        if ((s.IndexOf("]") - s.IndexOf("[")) % 3 != 0)
+        {
+            return false;
+        }
+
+        if ((s.IndexOf("}") - s.IndexOf("{")) % 3 != 0)
+        {
+            return false;
+        }
+
+        return true;
     }
 }
 
@@ -33,6 +44,6 @@ class Program
     {
         Solution test = new Solution();
 
-        test.valid_parantheses("()");
+        Console.WriteLine(test.IsValid("(dfdff)"));
     }
 }
