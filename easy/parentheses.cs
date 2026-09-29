@@ -3,38 +3,45 @@ using System.Collections.Generic;
 
 
 /*
-PLANNING
+Program.cs:
 
-how dis gna go
+func isValid()
+{
+    s = "([{}])"
+    stack = []
+    parents = {
+        "(":")",
+        "[":"]",
+        "{":"}".
+    }
 
-we receive string
 
-string has diff parentheses 
+    loop through s
+    {
+        if parents.containsKey(s) 
+        {
+            stack.add(s)
+        } 
 
-string only consisnts of parentheses
+        else 
+        {
+            if parents.getvalue(stack[-1]) == s 
+            {
+                stack.remove(-1)
+            }
 
+            return false
+        }
+    }
 
+    return true
+}
 */
 public class Solution
 {
     public bool IsValid(string s)
     {
-        if ((s.IndexOf(")") - s.IndexOf("(")) % 3 != 0)
-        {
-            return false;
-        }
-
-        if ((s.IndexOf("]") - s.IndexOf("[")) % 3 != 0)
-        {
-            return false;
-        }
-
-        if ((s.IndexOf("}") - s.IndexOf("{")) % 3 != 0)
-        {
-            return false;
-        }
-
-        return true;
+        
     }
 }
 
