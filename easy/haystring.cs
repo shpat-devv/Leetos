@@ -27,8 +27,7 @@ public class Solution
                             }
                         }
                     }
-                needle = needle.substring(first_ind, needle.length)
-
+                haystack = haystack.substring(first_ind, needle.length)
                 }
 
                 return -1
@@ -38,18 +37,33 @@ public class Solution
     */
     public int StrStr(string haystack, string needle)
     {
+
         int res = -1;
 
         while (res == -1)
         {
-            int first_index = haystack.IndexOf(needle[0]);
-            int last_index = haystack.IndexOf(needle[^1]);
+            int first_ind = haystack.IndexOf(needle[0]);
+            int last_ind = haystack.IndexOf(needle[^1]);
             
-            if ()
-            res = 0;
-        }
+            if (first_ind != -1 && last_ind != -1) 
+            {
+                if (first_ind < last_ind) 
+                {
+                    if (last_ind - first_ind + 1 == needle.Length) 
+                    {
+                        string word = haystack.Substring(first_ind, last_ind);
 
-        return res;
+                        if (word == needle)
+                        {
+                            return first_ind;
+                        }
+                    }
+                }
+
+                haystack = haystack.Substring(first_ind, needle.Length);
+            }
+        }
+        return -1;
     }
 }
 
