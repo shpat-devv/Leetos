@@ -4,32 +4,52 @@ public class Solution
 {
 
     /*
+        how to solve
 
-    retrieve a string and return first occurance of string using index of first char
+        main() 
+        {
+            loop()
+            {
+                first_ind = get_first_index()
+                last_ind = get_last_index()
 
-    return -1 if needle not in haystack
+                if (first_ind != -1 and last_ind != -1) 
+                {
+                    if (first_ind < last_ind) 
+                    {
+                        if (last_ind - first_ind == needle.length) 
+                        {
+                            word = haystack[last_ind, first_ind]
 
-    haystack always bigger than 1
+                            if (word == needle)
+                            {
+                                return first_ind
+                            }
+                        }
+                    }
+                needle = needle.substring(first_ind, needle.length)
 
-    needle can be up to 10^4 big
+                }
 
-
-    how we do this:
-
-    program loop
-
-    get first indexes of last and first char
-
-    check if pulled string matches needle
-
-    if not, cut string till needle index
-
-    resume loop
+                return -1
+            }
+        }
 
     */
     public int StrStr(string haystack, string needle)
     {
-        
+        int res = -1;
+
+        while (res == -1)
+        {
+            int first_index = haystack.IndexOf(needle[0]);
+            int last_index = haystack.IndexOf(needle[^1]);
+            
+            if ()
+            res = 0;
+        }
+
+        return res;
     }
 }
 
@@ -39,6 +59,6 @@ class Program
     {
         Solution test = new Solution();
 
-        Console.WriteLine(test.StrStr("sadbutsad", "sad"));
+        Console.WriteLine(test.StrStr("sabdutsad", "sad"));
     }
 }
