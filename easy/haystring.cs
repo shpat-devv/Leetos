@@ -18,23 +18,32 @@ public class Solution
 
         return -1;
     }
-    public int StrStr2(string haystack, string needle)
+    public int StrStr2(string haystack, string needle) //DOESNT WORK
     {
         while (true)
         {
+            int haystack_length = haystack.Length;
+
             int first_ind = haystack.IndexOf(needle[0]);
             int last_ind = haystack.IndexOf(needle[^1]);
-            
-            Console.WriteLine($"{first_ind }, {last_ind}");
 
-            if (first_ind != -1 && last_ind != -1) 
+            Console.WriteLine($"{first_ind}, {last_ind}");
+            Console.WriteLine(haystack);
+
+            if (first_ind != -1 && last_ind != -1)
             {
-                if (first_ind < last_ind) 
+                Console.WriteLine("check 1");
+
+                if (first_ind < last_ind)
                 {
-                    if (last_ind - first_ind + 1 == needle.Length) 
+                    Console.WriteLine("check 2");
+
+                    if (last_ind - first_ind + 1 == needle.Length)
                     {
-                        string word = haystack.Substring(first_ind, last_ind);
-                        
+                        Console.WriteLine("check 3");
+
+                        string word = haystack[first_ind..(last_ind + 1)];
+
                         Console.WriteLine(word);
 
                         if (word == needle)
@@ -42,8 +51,13 @@ public class Solution
                             return first_ind;
                         }
                     }
+
+                    haystack = haystack[(first_ind + 1)..];
                 }
-                haystack = haystack.Substring(first_ind + 1, needle.Length);
+                else
+                {
+                    haystack = haystack[first_ind..];
+                }
             }
             else
             {
