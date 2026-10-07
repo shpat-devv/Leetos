@@ -4,17 +4,19 @@ public class Solution
 {
     public int StrStr(string haystack, string needle)
     {
-        /*
-            loop through haystack - needle.len
+        if(needle == "") return 0;
 
-            check if current char is first char
-
-            if first char, create substring and compare to needle
-
-            return current index if match
-
-            return -1 at end
-        */
+        for (int i = 0; i <= haystack.Length - needle.Length; i++)
+        {
+            if (haystack[i] == needle[0])
+            {
+                string word = haystack.Substring(i, needle.Length);
+                if (word == needle)
+                {
+                    return i;
+                }
+            }
+        }
 
         return -1;
     }
@@ -73,6 +75,6 @@ class Program
     {
         Solution test = new Solution();
 
-        Console.WriteLine(test.StrStr2("sabdutsad", "sad"));
+        Console.WriteLine(test.StrStr("sabdutsad", "sad"));
     }
 }
