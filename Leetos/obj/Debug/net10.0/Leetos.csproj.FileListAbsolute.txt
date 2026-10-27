@@ -1,0 +1,14 @@
+C:\Users\XWSHAVD\RiderProjects\Leetos\Leetos\bin\Debug\net10.0\Leetos.exe
+C:\Users\XWSHAVD\RiderProjects\Leetos\Leetos\bin\Debug\net10.0\Leetos.deps.json
+C:\Users\XWSHAVD\RiderProjects\Leetos\Leetos\bin\Debug\net10.0\Leetos.runtimeconfig.json
+C:\Users\XWSHAVD\RiderProjects\Leetos\Leetos\bin\Debug\net10.0\Leetos.dll
+C:\Users\XWSHAVD\RiderProjects\Leetos\Leetos\bin\Debug\net10.0\Leetos.pdb
+C:\Users\XWSHAVD\RiderProjects\Leetos\Leetos\obj\Debug\net10.0\Leetos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\XWSHAVD\RiderProjects\Leetos\Leetos\obj\Debug\net10.0\Leetos.AssemblyInfoInputs.cache
+C:\Users\XWSHAVD\RiderProjects\Leetos\Leetos\obj\Debug\net10.0\Leetos.AssemblyInfo.cs
+C:\Users\XWSHAVD\RiderProjects\Leetos\Leetos\obj\Debug\net10.0\Leetos.csproj.CoreCompileInputs.cache
+C:\Users\XWSHAVD\RiderProjects\Leetos\Leetos\obj\Debug\net10.0\Leetos.dll
+C:\Users\XWSHAVD\RiderProjects\Leetos\Leetos\obj\Debug\net10.0\refint\Leetos.dll
+C:\Users\XWSHAVD\RiderProjects\Leetos\Leetos\obj\Debug\net10.0\Leetos.pdb
+C:\Users\XWSHAVD\RiderProjects\Leetos\Leetos\obj\Debug\net10.0\Leetos.genruntimeconfig.cache
+C:\Users\XWSHAVD\RiderProjects\Leetos\Leetos\obj\Debug\net10.0\ref\Leetos.dll
