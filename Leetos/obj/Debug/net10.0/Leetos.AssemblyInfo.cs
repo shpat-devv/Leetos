@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Leetos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0cdf279331431548e130b7a761420521b288d9f6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92a31bd0ffb7eb3851ba8c5f0cab7be4ade43a16")]
 [assembly: System.Reflection.AssemblyProductAttribute("Leetos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Leetos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

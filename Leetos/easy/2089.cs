@@ -1,17 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Globalization;
-
-
-namespace ConsoleApp
+namespace Leetos.easy
 {
-    internal class Program
+    internal class P2089
     {
-        public static void Main()
-        {
-            TargetIndices([1,2,5,2,3], 2);
-        }
-
         public static IList<int> TargetIndices(int[] nums, int target) {
             List<int> res = [];
 
