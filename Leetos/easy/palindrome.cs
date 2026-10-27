@@ -1,11 +1,8 @@
-using System;
-using System.Collections.Generic;
-
 namespace Leetos.easy
 {
-    public class Palindrome
+    public static class Palindrome
     {
-        public bool isPalindrome(int x)
+        public static bool Run(int x)
         {
             String x_str = x.ToString();
             String y_str = "";

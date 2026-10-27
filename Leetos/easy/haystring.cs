@@ -1,8 +1,8 @@
 namespace Leetos.easy
 {
-    public class Haystring
+    public static class Haystring
     {
-        public int StrStr(string haystack, string needle)
+        public static int Run(string haystack, string needle)
         {
             if (needle == "") return 0;
 
@@ -21,7 +21,7 @@ namespace Leetos.easy
             return -1;
         }
 
-        public int StrStr2(string haystack, string needle) //DOESNT WORK
+        public static int StrStr2(string haystack, string needle) //DOESNT WORK
         {
             while (true)
             {

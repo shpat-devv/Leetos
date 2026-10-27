@@ -1,11 +1,8 @@
-using System;
-using System.Collections.Generic;
-
 namespace Leetos.easy
 {
-    public class R2I
+    public static class R2I
     {
-        private Dictionary<char, int> r_nums = new Dictionary<char, int>
+        static readonly Dictionary<char, int> r_nums = new Dictionary<char, int>
         {
             { 'I', 1 },
             { 'V', 5 },
@@ -16,7 +13,7 @@ namespace Leetos.easy
             { 'M', 1000 }
         };
 
-        public void RomanToInt(string s)
+        public static void Run(string s)
         {
             int res = 0;
             int y = 4000;

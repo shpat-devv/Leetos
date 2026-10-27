@@ -2,7 +2,7 @@ namespace Leetos.easy
 {
     public class Binary
     {
-        public string AddBinary(string a, string b)
+        public string Run(string a, string b)
         {
             /*
             binary.cs

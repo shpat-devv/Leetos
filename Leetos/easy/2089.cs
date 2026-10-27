@@ -2,7 +2,7 @@ namespace Leetos.easy
 {
     internal class P2089
     {
-        public static IList<int> TargetIndices(int[] nums, int target) {
+        public static IList<int> Run(int[] nums, int target) {
             List<int> res = [];
 
             int n = nums.Length;

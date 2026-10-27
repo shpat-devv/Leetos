@@ -1,11 +1,8 @@
-using System;
-using System.Collections.Generic;
-
 namespace Leetos.easy
 {
-    public class Parentheses
+    public static class Parentheses
     {
-        public bool IsValid(string s)
+        public static bool Run(string s)
         {
             var pars = new Dictionary<char, char>
             {
