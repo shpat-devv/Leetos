@@ -1,0 +1,7 @@
+﻿services:
+  leetos:
+    image: leetos
+    build:
+      context: .
+      dockerfile: Leetos/Dockerfile
+
