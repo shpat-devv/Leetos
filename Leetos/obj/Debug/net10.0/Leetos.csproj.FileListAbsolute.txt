@@ -12,3 +12,4 @@ C:\Users\XWSHAVD\RiderProjects\Leetos\Leetos\obj\Debug\net10.0\refint\Leetos.dll
 C:\Users\XWSHAVD\RiderProjects\Leetos\Leetos\obj\Debug\net10.0\Leetos.pdb
 C:\Users\XWSHAVD\RiderProjects\Leetos\Leetos\obj\Debug\net10.0\Leetos.genruntimeconfig.cache
 C:\Users\XWSHAVD\RiderProjects\Leetos\Leetos\obj\Debug\net10.0\ref\Leetos.dll
+C:\Users\XWSHAVD\RiderProjects\Leetos\Leetos\obj\Debug\net10.0\Leetos.sourcelink.json
