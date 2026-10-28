@@ -1,6 +1,6 @@
 namespace Leetos.easy
 {
-    public static class Haystring
+    public static class P28
     {
         public static int Run(string haystack, string needle)
         {

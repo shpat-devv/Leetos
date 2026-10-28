@@ -1,6 +1,6 @@
 namespace Leetos.easy
 {
-    public static class Parentheses
+    public static class P20
     {
         public static bool Run(string s)
         {

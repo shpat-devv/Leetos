@@ -1,18 +1,12 @@
-﻿using Leetos.easy;
-
-namespace Leetos
+﻿namespace Leetos
 {
     public static class Program
     {
         private static void Main()
         {
-            Console.WriteLine("Leetos");
-            Console.WriteLine("Local LeetCode problem runner");
-            Console.WriteLine();
-
             while (true)
             {
-                PrintMenu();
+                Helper.PrintMenu();
 
                 Console.Write("Choose an option: ");
                 string? input = Console.ReadLine()?.Trim();
@@ -32,25 +26,19 @@ namespace Leetos
 
                 if (input.Equals("l", StringComparison.OrdinalIgnoreCase))
                 {
-                    PrintProblems();
+                    Helper.PrintProblems();
                     continue;
                 }
-
+                
                 if (input.Equals("a", StringComparison.OrdinalIgnoreCase))
                 {
-                    RunAllProblems();
+                    Helper.RunAllProblems();
                     continue;
                 }
 
-                if (input.Equals("e", StringComparison.OrdinalIgnoreCase))
+                if (input.Equals("i", StringComparison.OrdinalIgnoreCase))
                 {
-                    //RunProblemsByDifficulty(Difficulty.Easy);
-                    continue;
-                }
-
-                if (int.TryParse(input, out int problemNumber))
-                {
-                    RunProblemByNumber(problemNumber);
+                    Helper.RunSpecificProblem(1);
                     continue;
                 }
 

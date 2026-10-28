@@ -1,6 +1,6 @@
 namespace Leetos.easy
 {
-    public static class Palindrome
+    public static class P9
     {
         public static bool Run(int x)
         {

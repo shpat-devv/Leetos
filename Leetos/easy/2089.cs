@@ -1,6 +1,6 @@
 namespace Leetos.easy
 {
-    internal class P2089
+    internal static class P2089
     {
         public static IList<int> Run(int[] nums, int target) {
             List<int> res = [];

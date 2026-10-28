@@ -1,6 +1,6 @@
 namespace Leetos.easy
 {
-    public static class R2I
+    public static class P13
     {
         static readonly Dictionary<char, int> r_nums = new Dictionary<char, int>
         {
@@ -13,7 +13,7 @@ namespace Leetos.easy
             { 'M', 1000 }
         };
 
-        public static void Run(string s)
+        public static int Run(string s)
         {
             int res = 0;
             int y = 4000;
@@ -31,7 +31,7 @@ namespace Leetos.easy
                 y = z;
             }
 
-            Console.WriteLine(res);
+            return res;
         }
     }
 }
