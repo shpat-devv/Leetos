@@ -6,7 +6,7 @@
         {
             while (true)
             {
-                Helper.PrintMenu();
+                ProblemRunner.PrintMenu();
 
                 Console.Write("Choose an option: ");
                 string? input = Console.ReadLine()?.Trim();
@@ -26,19 +26,19 @@
 
                 if (input.Equals("l", StringComparison.OrdinalIgnoreCase))
                 {
-                    Helper.PrintProblems();
+                    ProblemRunner.PrintProblems();
                     continue;
                 }
                 
                 if (input.Equals("a", StringComparison.OrdinalIgnoreCase))
                 {
-                    Helper.RunAllProblems();
+                    ProblemRunner.RunAllProblems();
                     continue;
                 }
 
                 if (input.Equals("i", StringComparison.OrdinalIgnoreCase))
                 {
-                    Helper.RunSpecificProblem(1);
+                    ProblemRunner.RunSpecificProblem(1);
                     continue;
                 }
 
