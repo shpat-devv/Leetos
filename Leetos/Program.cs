@@ -36,12 +36,6 @@
                     continue;
                 }
 
-                if (input.Equals("i", StringComparison.OrdinalIgnoreCase))
-                {
-                    ProblemRunner.RunSpecificProblem(1);
-                    continue;
-                }
-
                 Console.WriteLine("Unknown option.");
                 Console.WriteLine();
             }

@@ -12,19 +12,15 @@ The goal of this project is to have a collection of problems I solved from LeetC
 
 Currently, it works by having separate files for all the problems, which are then gathered in an object list where they can be executed.
 
-## Things I Will Update
+### Features
 
-### Modularity
-- Make sure different output types are supported (lists, strings, integers, etc.)
-- Correctly handle and transfer captured outputs
+- All problems stored inside a list
+- Each problem is stored as an object
+- Problem can be executed and match output against expected result
+- Executed output captures runtime
 
-### Error Handling
-- Handle program crashes and errors
+### Incoming changes
 
-### Logic
-- Order list in ascending order
-- List input
-
-### Style
-- Use colors
-- Use timing
+- Improve CLI styling
+- Store problems inside database
+- Selective problem handling

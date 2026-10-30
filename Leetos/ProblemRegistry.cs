@@ -35,11 +35,11 @@ namespace Leetos
                 Cases =
                 [
                     new ProblemCase(
-                        expected: "0",
+                        expected: 0,
                         run: () => easy.P28.Run("sadbutsad", "sad")
                     ),
                     new ProblemCase(
-                        expected: "-1",
+                        expected: -1,
                         run: () => easy.P28.Run("leetcode", "leeto")
                     )
                 ]
@@ -66,7 +66,7 @@ namespace Leetos
         public ProblemCase(object expected, Func<object?> run)
         {
             Expected = expected;
-            _run = run;   // store it, don't call it
+            _run = run; // run is stored as a function
         }
 
         public object Expected { get; }
@@ -76,7 +76,7 @@ namespace Leetos
             var sw = Stopwatch.StartNew();
             try
             {
-                var output = _run();   // the solution runs here, only when you ask
+                var output = _run();
                 sw.Stop();
                 return new CaseResult(output, DeepEquals(Expected, output), sw.Elapsed);
             }
@@ -87,11 +87,10 @@ namespace Leetos
             }
         }
 
-        //TODO: Currently non-collection values dont get matched properly
         private static bool DeepEquals(object? a, object? b)
         {
-            if (ReferenceEquals(a, b)) return true;
             if (a is null || b is null) return false;
+            if (ReferenceEquals(a, b)) return true;
             if (a is string || b is string) return Equals(a, b);
 
             if (a is IEnumerable ea && b is IEnumerable eb)

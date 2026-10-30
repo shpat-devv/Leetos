@@ -7,7 +7,6 @@ public static class ProblemRunner
         "q: Quit", 
         "l: List Problems", 
         "a: Run All Problems", 
-        "i: Run Specific Problem"
     ];
     
     public static void PrintMenu()
@@ -45,10 +44,5 @@ public static class ProblemRunner
                 Console.WriteLine($"Time:     {result.Elapsed.TotalMilliseconds:F2} ms\n");
             }
         }
-    }
-    
-    public static void RunSpecificProblem(int x)
-    {
-            
     }
 }

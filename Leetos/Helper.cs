@@ -2,7 +2,7 @@
 
 namespace Leetos;
 
-public class Helper
+public static class Helper
 {
     public static string Stringify(object? value)
     {
