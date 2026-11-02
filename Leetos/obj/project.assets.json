@@ -8,19 +8,19 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\XWSHAVD\\.nuget\\packages\\": {}
+    "/Users/shpatdev/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\XWSHAVD\\RiderProjects\\Leetos\\Leetos\\Leetos.csproj",
+      "projectUniqueName": "/Users/shpatdev/RiderProjects/Leetos/Leetos/Leetos.csproj",
       "projectName": "Leetos",
-      "projectPath": "C:\\Users\\XWSHAVD\\RiderProjects\\Leetos\\Leetos\\Leetos.csproj",
-      "packagesPath": "C:\\Users\\XWSHAVD\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\XWSHAVD\\RiderProjects\\Leetos\\Leetos\\obj\\",
+      "projectPath": "/Users/shpatdev/RiderProjects/Leetos/Leetos/Leetos.csproj",
+      "packagesPath": "/Users/shpatdev/.nuget/packages/",
+      "outputPath": "/Users/shpatdev/RiderProjects/Leetos/Leetos/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\XWSHAVD\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/shpatdev/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\XWSHAVD\\.dotnet\\sdk\\10.0.402/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/Users/shpatdev/.dotnet/sdk/10.0.402/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

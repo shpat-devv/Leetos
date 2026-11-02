@@ -23,4 +23,7 @@ Currently, it works by having separate files for all the problems, which are the
 
 - Improve CLI styling
 - Store problems inside database
-- Selective problem handling
+- Select problems
+- Add problem creation and deletion functionality
+- Run problems inside containers
+- add multiple language support
